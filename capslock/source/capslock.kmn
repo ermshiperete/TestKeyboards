@@ -12,17 +12,17 @@ begin Unicode > use(main)
 
 group(main) using keys
 
-+ [NCAPS K_1] > 'fail.'
-+ [CAPS K_1] > 'pass.'
++ [NCAPS K_A] > 'fail.'
++ [CAPS K_A] > 'pass.'
 
-+ [CAPS SHIFT K_2] > 'fail.'
-+ [NCAPS SHIFT K_2] > 'pass.'
++ [CAPS SHIFT K_B] > 'fail.'
++ [NCAPS SHIFT K_B] > 'pass.'
 
 + '#' > 'pass.'
 + '3' > 'fail.'
 
-+ 'a' > 'fail.'
-+ 'A' > 'pass.'
++ 'c' > 'fail.'
++ 'C' > 'pass.'
 
-+ 'b' > 'pass.'
-+ 'B' > 'fail.'
++ 'd' > 'pass.'
++ 'D' > 'fail.'
