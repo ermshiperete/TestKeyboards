@@ -1,0 +1,28 @@
+﻿c capslock generated from template at 2021-07-27 17:32:04
+c with name "Caps Lock"
+store(&NAME) 'Caps Lock'
+store(&COPYRIGHT) 'Copyright (C)'
+store(&VERSION) '10.0'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'macosx iphone androidtablet mobile desktop tablet'
+store(&VISUALKEYBOARD) 'capslock.kvks'
+store(&LAYOUTFILE) 'capslock.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
++ [NCAPS K_1] > 'fail.'
++ [CAPS K_1] > 'pass.'
+
++ [CAPS SHIFT K_2] > 'fail.'
++ [NCAPS SHIFT K_2] > 'pass.'
+
++ '#' > 'pass.'
++ '3' > 'fail.'
+
++ 'a' > 'fail.'
++ 'A' > 'pass.'
+
++ 'b' > 'pass.'
++ 'B' > 'fail.'
