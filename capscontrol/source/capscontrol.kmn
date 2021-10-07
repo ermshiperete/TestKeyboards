@@ -1,8 +1,8 @@
 ﻿c capscontrol generated from template at 2021-07-28 10:48:25
 c with name "CapsOnOnly and ShiftFreesCaps features"
+store(&VERSION) '10.0'
 store(&NAME) 'CapsOnOnly and ShiftFreesCaps features'
 store(&COPYRIGHT) 'Copyright (C)'
-store(&VERSION) '10.0'
 store(&KEYBOARDVERSION) '1.0'
 store(&TARGETS) 'macosx iphone androidtablet mobile desktop tablet'
 store(&VISUALKEYBOARD) 'capscontrol.kvks'
@@ -27,8 +27,8 @@ group(Main) using keys
 + [NCAPS K_2] > 'fail.'
 + [CAPS K_2] > 'pass.'
 
-+ [NCAPS SHIFT K_3] > 'fail.'
-+ [CAPS SHIFT K_3] > 'pass.'
++ [CAPS SHIFT K_3] > 'fail.'
++ [NCAPS SHIFT K_3] > 'pass.'
 
 + [CAPS K_4] > 'fail.'
 + [NCAPS K_4] > 'pass.'
