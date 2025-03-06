@@ -1,4 +1,4 @@
-﻿store(&NAME) '005 - nul with initial context'
+﻿store(&NAME) '005 - nul with initial context - store'
 c Description: Tests nul context with an initial context supplied
 c keys: [K_A][K_A]
 c expected: xdd

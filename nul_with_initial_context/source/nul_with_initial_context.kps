@@ -16,7 +16,7 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Name URL="">005 - nul with initial context</Name>
+    <Name URL="">005 - nul with initial context - Infoname</Name>
     <Copyright URL="">Copyright (C)</Copyright>
     <Author URL=""></Author>
     <Version URL=""></Version>
@@ -43,7 +43,7 @@
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>005 - nul with initial context</Name>
+      <Name>005 - nul with initial context - Keyboardname</Name>
       <ID>nul_with_initial_context</ID>
       <Version>1.0</Version>
       <Languages>
