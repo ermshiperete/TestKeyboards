@@ -5,7 +5,7 @@
   <keys>
     <import base="cldr" path="45/keys-Zyyy-punctuation.xml"/>
     <import base="cldr" path="45/keys-Zyyy-currency.xml"/>
-      <key id="untransformed-hat" output="^"/>
+    <key id="untransformed-hat" output="^"/>
     <key id="hat" output="\m{hat}"/>
   </keys>
   <layers formId="us">

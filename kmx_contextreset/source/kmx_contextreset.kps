@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>17.0.306.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>18.0.209.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
     <ExecuteProgram></ExecuteProgram>
     <ReadMeFile>readme.htm</ReadMeFile>
     <LicenseFile>..\LICENSE.md</LicenseFile>
+    <WelcomeFile>welcome.htm</WelcomeFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
     <FollowKeyboardVersion/>
@@ -17,21 +18,27 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Name URL="">ContextReset</Name>
-    <Copyright URL="">Copyright ©</Copyright>
-    <Author URL=""></Author>
-    <Description URL="">Used for testing frame keys reseting the context</Description>
+    <Name URL="">kmx_contextreset</Name>
+    <Copyright URL="">Copyright © EB</Copyright>
+    <Author URL="">EB</Author>
+    <Description URL="">tests context reset</Description>
     <Version URL=""></Version>
   </Info>
   <Files>
     <File>
-      <Name>..\build\ldml_contextreset.kmx</Name>
+      <Name>..\build\kmx_contextreset.kmx</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
     </File>
     <File>
-      <Name>..\build\ldml_contextreset.kvk</Name>
+      <Name>..\build\kmx_contextreset.js</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>..\build\kmx_contextreset.kvk</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kvk</FileType>
@@ -57,9 +64,9 @@
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>ContextReset</Name>
-      <ID>ldml_contextreset</ID>
-      <Version>1.0.0</Version>
+      <Name>kmx_contextreset</Name>
+      <ID>kmx_contextreset</ID>
+      <Version>1.0</Version>
       <Languages>
         <Language ID="en">English</Language>
       </Languages>

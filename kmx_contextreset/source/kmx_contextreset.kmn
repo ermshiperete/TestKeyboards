@@ -1,0 +1,20 @@
+﻿c kmx_contextreset generated from template at 2025-03-07 12:55:07
+c with name "kmx_contextreset"
+store(&VERSION) '10.0'
+store(&NAME) 'kmx_contextreset'
+store(&COPYRIGHT) 'Copyright © EB'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'any'
+store(&BITMAP) 'kmx_contextreset.ico'
+store(&VISUALKEYBOARD) 'kmx_contextreset.kvks'
+store(&LAYOUTFILE) 'kmx_contextreset.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
++ [SHIFT K_6] > dk(1)
+dk(1) + [K_E] > U+00EA
+'a' + '*' > 'Star'
+'a' + '/' > 'Fwd Star'
+'a' + '-' > 'minus'
+'ABC' + 'D' > 'DCBA'
